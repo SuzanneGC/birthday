@@ -41,14 +41,6 @@ a{
     padding: 10px;
 }
 
-.displayNone{
-    display: none;
-}
-
-.displayBlock{
-    display: block;
-}
-
 #practialInformation{
     display: flex;
     flex-direction: row;

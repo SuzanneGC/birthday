@@ -33,15 +33,19 @@
             <a href="https://mairie-harcourt.fr/2019/07/30/location-salle-des-fetes-2/">Lien vers le site de la salle des fêtes</a>
         </div>
     </div>
-    <p id = "enSavoirPlus" class = "displayNone">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consequat neque quis arcu blandit maximus. Cras vel nisl tempus, porttitor mi sit amet, sodales odio. In risus ante, consequat ut pellentesque in, iaculis eu turpis. Morbi vehicula neque orci, at lacinia erat tincidunt sit amet. Nam nec sem vehicula, aliquam nulla at, scelerisque quam. Nunc aliquet justo sed ullamcorper aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris mattis nisi vitae risus sagittis, ut convallis mauris vulputate. Quisque nec sodales lorem, eget consectetur orci. Nam tristique interdum magna eu varius. Phasellus tincidunt, tortor sit amet tincidunt tempor, augue quam ullamcorper nibh, ut faucibus odio nulla in erat. </p>
+    <p id = "enSavoirPlus">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consequat neque quis arcu blandit maximus. Cras vel nisl tempus, porttitor mi sit amet, sodales odio. In risus ante, consequat ut pellentesque in, iaculis eu turpis. Morbi vehicula neque orci, at lacinia erat tincidunt sit amet. Nam nec sem vehicula, aliquam nulla at, scelerisque quam. Nunc aliquet justo sed ullamcorper aliquet. Interdum et malesuada fames ac ante ipsum primis in faucibus. Mauris mattis nisi vitae risus sagittis, ut convallis mauris vulputate. Quisque nec sodales lorem, eget consectetur orci. Nam tristique interdum magna eu varius. Phasellus tincidunt, tortor sit amet tincidunt tempor, augue quam ullamcorper nibh, ut faucibus odio nulla in erat. </p>
 
     <img src="images/furet.png" id = "ferretIcon">
     <img src="images/salle-de-fêtes-extérieur.jpg" id = "placePicture">
 
-    <form id = "birthdatForm" action = "envoiInformations.php" method = "POST">
-        <input>
-        <input type = "number"> 
-        <button type = "submit" id = "sendInfo">Envoi</button>
+    <div id = "inscriptions">
+        <form id = "birthdatForm" action = "register.php" method = "POST">
+            <input name = "nom" id = "nom">
+            <input name = "nombre" type = "number" id = "nombre"> 
+            <button type = "submit" id = "sendInfo">Envoi</button>
+        </form>
+        <h1>Combien d'inscrits ?</h1>
+    </div>
 
     <script src = "script.js"></script>
 
