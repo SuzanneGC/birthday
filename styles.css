@@ -33,6 +33,7 @@ p{
 
 a{
     color: rgb(102, 179, 189);
+    align-self: center;
 }
 
 button{
