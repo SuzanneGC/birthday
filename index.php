@@ -38,6 +38,11 @@
     <img src="images/furet.png" id = "ferretIcon">
     <img src="images/salle-de-fêtes-extérieur.jpg" id = "placePicture">
 
+    <form id = "birthdatForm" action = "envoiInformations.php" method = "POST">
+        <input>
+        <input type = "number"> 
+        <button type = "submit" id = "sendInfo">Envoi</button>
+
     <script src = "script.js"></script>
 
 </body>
