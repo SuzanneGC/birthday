@@ -45,6 +45,7 @@
             <button type = "submit" id = "sendInfo">Envoi</button>
         </form>
         <h1>Combien d'inscrits ?</h1>
+        <p>Nombre total d'invités : <?php include "count_guests.php";?></p>
     </div>
 
     <script src = "script.js"></script>
